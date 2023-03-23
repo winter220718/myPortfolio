@@ -1,0 +1,331 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Share+Tech+Mono&display=swap');
+
+
+
+* {
+    font-family: 'SUIT-Regular';
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+
+
+#pic>div {
+    font-family: 'NanumGothic', 'serif';
+    text-align: center;
+    color: white;
+}
+
+#name {
+    font-family: 'NanumGothic', 'serif';
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+#nameEng {
+    font-family: 'NanumGothic', 'serif';
+    margin-top: 5px;
+    font-size: 17px;
+
+}
+
+#hello {
+    font-family: 'NanumGothic', 'serif';
+    margin-top: 40px;
+    font-size: 13px;
+    line-height: 160%;
+}
+
+#me {
+    font-family: 'NanumGothic', 'serif';
+    width: 130pt;
+    margin-top: 50px;
+
+
+}
+
+#pic {
+
+    background-color: rgb(86, 149, 169);
+    text-align: center;
+    position: fixed;
+    overflow: auto;
+
+}
+
+
+#links {
+    margin: 10px;
+
+}
+
+#links img {
+
+    margin: 20px 10px;
+    width: 28px;
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* position: relative; */
+
+}
+
+.container>div:first-child {
+    height: 100vh;
+    width: 15%;
+}
+
+.container>div:last-child {
+    height: 100vh;
+    width: 85%;
+    margin-left: 15%;
+}
+
+.mini_container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.mini_container>div:first-child {
+    height: 33%;
+    background-color: whitesmoke;
+
+}
+
+.mini_container>div:last-child {
+    height: 70%;
+
+}
+
+#project_name {
+    font-family: 'NanumGothic', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+#project_time {
+    font-family: 'NanumGothic', sans-serif;
+    font-size: 14px;
+    color: lightslategrey;
+
+}
+
+#project_description {
+    margin-top: 40px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.bullets {
+
+    display: inline-block;
+    position: relative;
+    /* border: solid 1px black; */
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    top: -7px;
+
+
+}
+
+.material-symbols-outlined {
+
+    position: relative;
+    margin-top: 25px;
+
+    /* border: solid 1px black; */
+
+
+}
+
+#project_description ul {
+    padding-inline-start: 3px;
+    margin-top: 10px;
+
+}
+
+
+#project_description li {
+    list-style-type: none;
+
+
+}
+
+pre {
+    margin-top: 10px;
+}
+
+.bar {
+
+    margin-top: 60px;
+    background-color: gainsboro;
+    height: 90px;
+    width: 1px;
+}
+
+.description_container {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+
+}
+
+.description_container div {
+    margin-right: 40px;
+    line-height: 180%;
+}
+
+#whatIthougth {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+#whatIthougth>pre:nth-child(2) {
+
+    margin-left: 30px;
+}
+
+.main_container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main_container>div:first-child {
+    /* border: 1px solid black; */
+    height: 540px;
+
+
+}
+
+
+#img_container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: left;
+    margin-left: 40px;
+
+}
+
+#img_container img {
+
+    box-shadow: 5px 5px 10px 3px gainsboro;
+    /* border: 1px solid black; */
+    margin: 30px 6px 30px 6px;
+
+}
+
+#detailed_container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#detailed_container>div:first-child {
+    width: 49%
+}
+
+#detailed_container>div:last-child {
+    width: 49%
+}
+
+.mini_bullet {
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to top, #FFE400 50%, transparent 50%);
+    color: black;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+
+.detailed_mini_container {
+    margin: 30px 30px 0px 60px;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detailed_mini_container>div {
+    margin-bottom: 80px;
+}
+
+
+.detailed_description {
+    font-size: 14px;
+    line-height: 190%;
+    display: inline-block;
+    /* border: solid 1px black; */
+
+    margin-left: 30px;
+
+}
+
+.smallest_container {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.highlight {
+    font-weight: 600;
+
+}
+
+#review {
+
+    display: inline-flex;
+    font-size: 14px;
+   margin-left: 30px;
+   margin-right: 30px;
+    font-weight: 400;
+    line-height: 190%;
+    background-color: whitesmoke;
+    justify-content: center;
+
+    border-radius: 10px;
+}
+
+#review>div {
+    margin: 20px 60px;
+
+    width: 43%;
+}
+
